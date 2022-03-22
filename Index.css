@@ -1,0 +1,21 @@
+.gangBlock {
+    font-size: 30px;
+    color: pink;
+    border: dotted 15px lightblue;
+    text-align: center;
+    display: inline;
+}
+
+body {
+    background-color: lavender;
+}
+
+.spacing {
+    margin-top: 35px;
+    display: inline-block;
+    width: 100%;
+}
+
+#section-1 {
+    text-align: center;
+}
