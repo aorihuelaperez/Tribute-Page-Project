@@ -1,3 +1,8 @@
+/* NAME:ALI 
+DATE: 03.25.22
+NOTE: THIS CSS IS FOR THE HOME SCREEN THAT INCLUDES THE CAT CRIMINALS AND THEIR INFORMATION.
+*/
+
 .gangBlock {
     font-size: 30px;
     color: pink;
@@ -12,10 +17,14 @@ body {
     text-align: center;
 }
 
+
+/* THIS IS OG BACKGROUND. NOT IN USE, PLEASE DO NOT USE. ALREADY HAVE POG BACKGROUND
+ 
 body/ {
     background-color: lavender;
     text-align: center;
 }
+*/
 
 .spacing {
     margin-top: 35px;
@@ -35,9 +44,20 @@ body/ {
     color: white;
 }
 
+.fireworks {
+    position: absolute;
+    z-index: -99;
+    left: 15%;
+    visibility: hidden;
+}
+
 .cat-list {
-    text-align: left;
+    text-align: center;
     color: white;
+}
+
+.cat-list>p {
+    text-align: left;
 }
 
 .default-img-prop {
@@ -46,4 +66,5 @@ body/ {
 
 .cat-image {
     height: 189px;
+    display: inline-block;
 }

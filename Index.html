@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
 <html>
 
 <head>
@@ -12,9 +12,15 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
+    <button onclick="titlecolor()">Suprise Button</button>
+    <!---<a href="cat-saints.html">CLICK ME IM POG</a>-->
+
+    <Img class="fireworks" src="img/fireworks.gif"> </Img>
+
     <div id="section-1">
         <div class="gangBlock spacing">Gang Gang</div>
         <div class="spacing">
@@ -24,7 +30,7 @@
 
     <div id="section-2">
         <div class="spacing-2">
-            <h1> Cat Gangs and Criminals</h1>
+            <h1 class="animate__animated animate__bounce"> Cat Gangs and Criminals</h1>
             <img class="cat-image default-img-prop" src="img/cat-cat.png" alt="cat image">
             <p> Welcome to cats and criminals, here you will learn about our deadliest cats in the world. Don't be afraid for they are serving their 9 lives in cat prison. Below you will find images of our top 5 deadly kitties and their backstories.
             </p>
@@ -47,13 +53,39 @@
             </p>
         </div>
 
+        <div class="cat-list">
+            <h2>3. Cat Imposter</h2>
+            <img class="cat-image default-img-prop" src="img/cat-imposter.png" alt="cat-imposter">
+            <p> The cat imposter is a fake! He is known to be a mischivious trouble maker for pretending to be a world renound leader. During a very important cermemony, the cat imposter catnapped the leader of pawasia and stripped him of his uniform. Then
+                proceeded to participate in the pawasia ceremony while throwing gang signs at the elderly. Police caught the imposter, but unfortunatly the actual leader of pawasia was not able to recover from the cattube videos that we then posted online.
+            </p>
+        </div>
+
+        <div class="cat-list">
+            <h2>4. Cat Criminal </h2>
+            <img class="cat-image default-img-prop" src="img/cat-criminal-image.jpeg" alt="cat-criminal">
+            <p> The cat criminal is just a hillbilly cat that terrorizes locals. No one knows where he came from and how long he's been around, but everyone know's that he isn't going anywhere anytime soon, sadly. Local police have arrested this cat criminal
+                various times, but everytime he gets bailed out from an unknown sorce. Police are currently investigating who the mystrious indvidual is.
+            </p>
+        </div>
+
+        <div class="cat-list">
+            <h2>5. Santa Claws</h2>
+            <img class="cat-image default-img-prop" src="img/santa-claws.jpeg" alt="santa-claws">
+            <p> The santa claws is the grinch of Christmas. He is known to steal the cookies and presents of kittens as they sleep. He was caught by a resident that claimed that they heard something in the chiminey. As they went to check, they found a fat
+                cat stuck inside. They called police and santa claws was taken to jail.
+            </p>
+        </div>
+
     </div>
 
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <script src="" async defer></script>
+    <script src="js/index.js" async defer></script>
+    <script src="js/animation.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>
