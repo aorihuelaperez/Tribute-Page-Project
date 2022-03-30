@@ -19,14 +19,6 @@ function myFunction() {
     alert("I am an alert box!");
 }
 
-function titlecolor() {
-    var colorChange = Math.floor(Math.random() * 10000); // will give us 4 random numbers
-
-    $('.gangBlock').css('color', '#' + colorChange + 'ed');
-
-    $('.fireworks').css('visibility', 'visible');
-}
-
 // TO USE THIS FUNCTION YOU CAN CALL IT BY DOING THIS:
 //myFunctionName();
 
@@ -45,3 +37,29 @@ function titlecolor() {
 // $('.cat-list').fadeIn(function() {
 //     return null;
 // })
+
+
+// OBJECTS AND ARRAYS
+
+// THIS IS AN OBJECT
+// You can store information to fetch later
+var infoObj = {
+    "email": "mystuff@gmail.com",
+    "name": "David Land",
+    "age": function() {
+        // you can use functions to select info from the html file and store it for later.
+        return $('div.gangBlock').val()
+    }
+}
+
+// THIS IS AN ARRAY
+// you can store things as a list for later
+var myArry = ["cat", "dog", "dragon", "horse"]
+
+var coolArry = [{
+        "something": 12345
+    },
+    {
+        other: 10
+    }
+]
